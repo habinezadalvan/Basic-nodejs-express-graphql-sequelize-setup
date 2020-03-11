@@ -17,7 +17,7 @@ export const createUser = {
               });
               return user;
          }catch(err){
-             console.log('err -----', err);
+             console.log('err', err);
          }
         },
       },
